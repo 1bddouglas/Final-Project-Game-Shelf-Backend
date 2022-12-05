@@ -1,0 +1,5 @@
+{
+  "mongodb": {
+    "uri": "mongodb+srv://1bddouglas:redbull@cluster0.9zelgrb.mongodb.net/Final-Project-Game-Shelf?retryWrites=true&w=majority"
+  }
+}
