@@ -9,6 +9,7 @@ const errorResponse = (error: any, res: any) => {
   res.status(500).json({ message: "Internal Server Error" });
 };
 
+// get account
 accountRouter.get("/", async (req, res) => {
   try {
     const client = await getClient();
@@ -18,6 +19,11 @@ accountRouter.get("/", async (req, res) => {
   } catch (err) {
     errorResponse(err, res);
   }
+});
+
+// add whishlist function
+accountRouter.put("", async (req, res) => {
+  
 });
 
 export default accountRouter;
